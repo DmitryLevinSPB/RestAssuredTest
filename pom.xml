@@ -12,7 +12,8 @@
      <dependency>
          <groupId>org.testng</groupId>
          <artifactId>testng</artifactId>
-         <version>LATEST</version>
+         <version>6.8.8</version>
+         <scope>test</scope>
      </dependency>
      <dependency>
          <groupId>io.rest-assured</groupId>
@@ -21,12 +22,50 @@
          <scope>test</scope>
      </dependency>
 
+     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+     <dependency>
+         <groupId>org.junit.jupiter</groupId>
+         <artifactId>junit-jupiter-api</artifactId>
+         <version>5.10.1</version>
+         <scope>test</scope>
+     </dependency>
+
+
      <dependency>
          <groupId>io.rest-assured</groupId>
          <artifactId>json-schema-validator</artifactId>
          <version>5.3.2</version>
          <scope>test</scope>
      </dependency>
+
+     <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+     <dependency>
+         <groupId>io.rest-assured</groupId>
+         <artifactId>rest-assured</artifactId>
+         <version>5.4.0</version>
+         <scope>test</scope>
+     </dependency>
+
+     <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+     <dependency>
+         <groupId>javax.xml.bind</groupId>
+         <artifactId>jaxb-api</artifactId>
+         <version>2.3.1</version>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/jakarta.activation/jakarta.activation-api -->
+     <dependency>
+         <groupId>jakarta.activation</groupId>
+         <artifactId>jakarta.activation-api</artifactId>
+         <version>2.1.2</version>
+     </dependency>
+
+     <!-- https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime -->
+     <dependency>
+         <groupId>org.glassfish.jaxb</groupId>
+         <artifactId>jaxb-runtime</artifactId>
+         <version>2.3.2</version>
+     </dependency>
+
  </dependencies>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
